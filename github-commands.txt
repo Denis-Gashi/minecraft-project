@@ -1,0 +1,3 @@
+Git add . - add all edited files to commit
+git commit -m "" - Commit the edited files and add a message
+git push
