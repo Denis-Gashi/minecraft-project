@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav{
+    display: flex;
+}
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+header nav ul li a{
+    padding-left: 1rem;
+}
+
+header{
+    height: 4rem;
+    background-color: #313131;
+    justify-content: space-around;
+}
