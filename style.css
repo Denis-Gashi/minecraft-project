@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* ============  header section =========== */ 
 header{
   background-color: #313131;
   border-bottom: #6cc349 1px solid;
@@ -18,10 +20,7 @@ header .container {
   max-width: 1200px;
   margin: auto;
 }
-.main-wrapper {
-  padding: 2rem 4rem 0 4rem;
-  background-color: #313131;
-}
+
 
 header nav {
   display: flex;
@@ -36,8 +35,21 @@ header nav ul li a {
   color: #fff;
   text-decoration: none;
 }
+/* ========== end of header section ========== */
 
-main .box-main {
+
+
+/*  section of wrapper i homepage */
+.main-wrapper {
+  padding: 2rem 4rem 0 4rem;
+  background-color: #313131;
+}
+
+
+
+
+
+.homepage .box-main {
   width: 100%;
   display: flex;
   align-items: center;
@@ -46,13 +58,13 @@ main .box-main {
 
 }
 
-main .box-main .left-box,
-main .box-main .right-box{
+.homepage .box-main .left-box,
+.homepage .box-main .right-box{
   width: 50%;
   color: white;
 }
 
-main .box-main img {
+.homepage .box-main img {
   width: 30%;
   height: auto;
 }
