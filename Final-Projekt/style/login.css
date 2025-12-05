@@ -1,0 +1,103 @@
+/* BACKGROUND */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url("YOUR-IMAGE.jpg") center/cover no-repeat;
+  font-family: Arial, sans-serif;
+}
+
+/* CONTAINER */
+.login-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* MINECRAFT STYLE LOGO */
+.logo {
+  font-size: 48px;
+  font-weight: 900;
+  color: white;
+  -webkit-text-stroke: 3px black;
+  text-shadow: 4px 4px 0px #000;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+}
+
+/* LOGIN BOX */
+.login-box {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 30px;
+  width: 350px;
+  border-radius: 6px;
+  color: white;
+  box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.8);
+}
+
+.login-box label {
+  font-size: 12px;
+  font-weight: bold;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.login-box input {
+  width: 100%;
+  height: 35px;
+  background: #1d1d1d;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  padding-left: 10px;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* OPTIONS ROW */
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  margin: 10px 0 15px;
+}
+
+.options a {
+  color: #8dbfe3;
+  text-decoration: none;
+}
+
+/* LOGIN BUTTON */
+.login-btn {
+  width: 100%;
+  height: 45px;
+  background: #3ab54a;
+  border: 2px solid #1c5f25;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.login-btn:hover {
+  background: #34a143;
+}
+
+/* SIGN UP */
+.signup {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.signup a {
+  color: #8dbfe3;
+  text-decoration: none;
+}
